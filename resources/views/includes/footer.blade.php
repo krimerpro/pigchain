@@ -1,90 +1,98 @@
 <!-- Footer -->
-<footer class="bg-off-white footer">
-    <div class="footer-lower bg-blue position-relative">
+<footer id="contact" class="iq-footer">
+    <div class="footer-bottom iq-ptb-20 ">
         <div class="container">
-            <div class="footer-copyright-text footer-copyright-text-white">
-                <p>Copyright ©2023 Erudex. Designed & Developed By <span style="color:blue;font-weight:bold">Erudex Team</span></a></p>
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div class="iq-copyright text-white">© Copyright 2023 PIG CHAIN Developed by <a href="#" target="_blank">PIGCHAIN TEAM.</a></div>
+                </div>
+                <div class="col-md-6">
+                    <ul class="iq-media-blog ">
+                        <li><a href="# "><i class="fa fa-twitter "></i></a></li>
+                        <li><a href="# "><i class="fa fa-facebook "></i></a></li>
+                        <li><a href="# "><i class="fa fa-google "></i></a></li>
+                        <li><a href="# "><i class="fa fa-github "></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </footer>
-<!-- Footer -->
-
-<!-- Scroll-top -->
-<div class="scroll-top" id="scrolltop">
-    <div class="scroll-top-inner">
-        <i class="icofont-long-arrow-up"></i>
-    </div>
-</div>
-<!-- Scroll-top -->
-
-<!-- Topbar-side-modal -->
-<div class="side-modal-wrapper">
-    <div class="side-modal">
-        <div class="side-modal-header">
-            <div class="side-modal-logo">
-                <a href="#"><img src="{{ asset('images/logo.png') }}" alt="logo"></a>
+<!--================================= Footer -->
+<div class="modal fade iq-login" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content blue-bg">
+            <div class="modal-header text-center">
+                <h4 class="modal-title ">Login</h4>
+                <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="side-modal-close">
-                <i class="icofont-close"></i>
+            <div class="modal-body">
+                <div class="contact-form">
+                    <div class="section-field">
+                        <input class="require" id="contact_name" type="text" placeholder="Name*" name="name">
+                    </div>
+                    <div class="section-field">
+                        <input class="require" id="contact_email" type="email" placeholder="Email*" name="email">
+                    </div>
+                    <a class="button iq-mtb-10" href="javascript:void(0)">Sign In</a>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">Remember Me</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-end">
+                            <a href="javascript:void(0)">Forgot Password</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="side-modal-body">
-            <div class="sidebar-info-content">
-                <h3>Follow Us</h3>
-                <ul class="social-list">
-                    <li>
-                        <a href="https://twitter.com/ErudexAI" target="_blank"><i class="icofont-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/ErudexAiPortal" target="_blank"><i class="icofont-paper-plane"></i></a>
-                    </li>
+            <div class="modal-footer text-center">
+                <div> Don't Have an Account? <a href="javascript:void(0)" class="iq-font-yellow">Register Now</a></div>
+                <ul class="iq-media-blog iq-mt-20">
+                    <li><a href="# "><i class="fa fa-twitter "></i></a></li>
+                    <li><a href="# "><i class="fa fa-facebook "></i></a></li>
+                    <li><a href="# "><i class="fa fa-google "></i></a></li>
+                    <li><a href="# "><i class="fa fa-github "></i></a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-<!-- Topbar-side-modal -->
-
-<!-- Search-overlay -->
-<div class="search-overlay">
-    <div class="search-close">
-        <i class="icofont-close"></i>
-    </div>
-    <div class="search-form-area">
-        <div class="search-area-logo">
-            <a href="#">
-                <img src="{{ asset('images/logo-white.png') }}" alt="logo">
-            </a>
-        </div>
-        <form>
-            <div class="form-group search-form-group">
-                <input type="text" placeholder="Search..." class="form-control" autofocus="autofocus">
-                <button>
-                    <i class="icofont-search-1"></i>
-                </button>
-            </div>
-        </form>
-    </div>
+<!-- back-to-top -->
+<div id="back-to-top">
+    <a class="top" id="top" href="#top"><i class="fa fa-angle-double-up" aria-hidden="true"></i> </a>
 </div>
-<!-- Search-overlay -->
-
-<!-- essential js -->
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{ asset('/js/jquery.min.js') }}"></script>
-<script src="{{ asset('/js/bootstrap.bundle.min.js') }}"></script>
-<!-- magnific popup js -->
-<script src="{{ asset('/js/jquery.magnific-popup.min.js') }}"></script>
-<!-- owl carousel js -->
-<script src="{{ asset('/js/owl.carousel.min.js') }}"></script>
-<!-- nice select js -->
-<script src="{{ asset('/js/jquery.nice-select.min.js') }}"></script>
-<!-- form ajazchimp js -->
-<script src="{{ asset('/js/jquery.ajaxchimp.min.js') }}"></script>
-<!-- form validator js  -->
-<script src="{{ asset('/js/form-validator.min.js') }}"></script>
-<!-- contact form js -->
-<script src="{{ asset('/js/contact-form-script.js') }}"></script>
-<!-- meanmenu js -->
-<script src="{{ asset('/js/jquery.meanmenu.min.js') }}"></script>
-<!-- main js -->
-<script src="{{ asset('/js/script.js') }}"></script>
+<!-- back-to-top End -->
+<!-- bubbly -->
+<canvas id="canvas1"></canvas>
+<!-- bubbly End -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="{{ asset('js/jquery-min.js') }}"></script>
+<!-- popper JavaScript -->
+<script src="{{ asset('js/popper.min.js') }}"></script>
+<!-- canvas -->
+<script src="{{ asset('js/canvas/canvas2.js') }}"></script>
+<!-- Bootstrap JavaScript -->
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<!-- All-plugins JavaScript -->
+<script src="{{ asset('js/all-plugins.js') }}"></script>
+<!-- timeline JavaScript -->
+<script src="{{ asset('js/timeline.min.js') }}"></script>
+<!-- canvas JavaScript -->
+<script src="{{ asset('js/lib/canvasjs.min.js') }}"></script>
+<script src="{{ asset('js/lib/particles1.min.js') }}"></script>
+<script src="{{ asset('js/lib/app.js') }}"></script>
+<script src="{{ asset('js/lib/stats.js') }}"></script>
+<!-- amcharts -->
+<script src="{{ asset('js/amcharts/amcharts.js') }}"></script>
+<script src="{{ asset('js/amcharts/serial.js') }}"></script>
+<script src="{{ asset('js/amcharts/export.min.js') }}"></script>
+<script src="{{ asset('js/amcharts/none.js') }}"></script>
+<script src="{{ asset('js/amcharts/pie.js') }}"></script>
+ <!-- carousel JavaScript -->
+ <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+<!-- Custom JavaScript -->
+<script src="{{ asset('js/custom.js') }}"></script>

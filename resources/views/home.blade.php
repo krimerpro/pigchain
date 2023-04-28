@@ -1,332 +1,374 @@
 @extends('layouts.default')
 @section('content')
 
-<!-- Feature-section -->
-<div class="feature-section pb-70 section-to-header">
-    <div class="container">
+<!-- banner -->
+<div id="home" class="iq-banner-3">
+    <div id="particles-js"></div>
+    <div class="banner-info">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-green">
-                                <i class="flaticon-machine-learning-1"></i>
-                            </div>
-                            <span>Low Tax</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>4% Tax Buy & Sell</p>
-                        </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="banner-text text-left text-white">
+                        <h1 class="text-white iq-tw-7 iq-mb-20"><b class="iq-font-yellow">PIG CHAIN</b> Advanced Technology</h1>
+                        <p>Pig Chain use the latest and advanced technology to maintain the scalability of the number of existing transactions </p>
+                        <a href="#" class="button iq-mt-20 iq-ml-10" style="background:#DD00AE">JOIN US</a>
+                        <a href="#" class="button bt-white iq-mt-20 iq-ml-10" style="background:#DD00AE;color:white">CHART</a>
+                        <a href="#" class="button bt-white iq-mt-20 iq-ml-10" style="background:#DD00AE;color:white">BUY PIG</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-yellow">
-                                <i class="flaticon-voice-recognition"></i>
-                            </div>
-                            <span>Anti Whale & Dump</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>4% Max Wallet & Transaction</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-blue">
-                                <i class="flaticon-machine-learning"></i>
-                            </div>
-                            <span>Low of Supply</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>50.000.000 $Erudex Tokens</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-violet">
-                                <i class="flaticon-processor"></i>
-                            </div>
-                            <span>Initial Liquidity</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>2 BNB for Liquidity</p>
-                        </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="ico-img">
+                        <img class="img-fluid" src="{{ asset('images/banner/02.png') }}" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Feature-section -->
-<!-- About-section -->
-<section class="about-section bg-off-white pt-100 pb-70" id="about">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 pb-30">
-                <div class="about-section-item about-item-image text-center">
-                    <img src="{{ asset('images/feature-shape/feature-shape-1.png') }}" alt="shape">
+<!-- banner -->
+<!-- Main-Contain -->
+<div class="main-contain">
+    <!-- What is OVEX -->
+    <section id="iq-about" class="overview-block-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <img src="{{ asset('images/about/04.png') }}" class="img-fluid" alt="about_img">
                 </div>
-            </div>
-            <div class="col-lg-6 pb-30">
-                <div class="about-section-item about-item-details">
-                    <div class="section-title section-title-left text-start">
-                        <small>About Us</small>
-                        <h2>Mission Is To Bring The Power Of Erudex AI To Every Business</h2>
+                <div class="col-lg-6 align-self-center mt-4 mt-lg-0">
+                    <div class="heading-title left">
+                        <small class="iq-font-green">About Us</small>
+                        <h2 class="iq-tw-6">What is Pig Chain?</h2>
                     </div>
-                    <div class="about-content">
-                        <ul>
-                            <li>Advance Advisory Team</li>
-                            <li>Advance Quality Experts</li>
-                            <li>Many variations of passages</li>
-                            <li>High-Quality Results</li>
-                        </ul>
-                        <a href="#" class="btn main-btn">About Us</a>
-                    </div>
+                    <P>Pig Chain a structure that consists of blocks. Each block contains a nonce, timestamp, the hash of the previous block and transaction (new data in non-financial applications). The blockchain works as follows.</p>
+                    <p>Transaction requests constantly arrive, but it is up to the majority of users to accept those requests. After a transaction is accepted, the hash of the previous block, timestamp and nonce is added in to the new block.</P>
+                    <p>Since every block contains the previous block’s hash value, this system is secure because if one block’s contents change, hash values would not add up.</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- About-section -->
-<!-- Service-section -->
-<section class="service-section pt-100 pb-70" id="services">
-    <div class="container">
-        <div class="section-title section-title-lg">
-            <small>Services</small>
-            <h2>Our Purpose Is To Deliver Excellence <br> In Service And Execution</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-automation"></i>
+    </section>
+    <!-- What is OVEX END -->
+    <!-- What is OVEX -->
+    <section id="ico" class="overview-block-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="heading-title left">
+                        <small class="iq-font-green">Our Vision</small>
                     </div>
-                    <div class="service-card-body">
-                        <h3>Robotic Automation</h3>
-                    </div>
+                    <P>We’re building the future of finance. Blockchain is the most trusted and fastest growing crypto company, helping millions across the globe – from single individuals to the largest institutions – have an easy and safe way to access cryptocurrency.</P>
+                    <p>We hope Pig Chain can bring trust and confidence in the blockchain ecosystem.</p>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-predictive-chart"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Predictive Analytics</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-deep-learning"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Deep Learning</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-data-mining"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Data Mining</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-diagram"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Statistical Modeling</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-machine-learning-2"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Security & Surveillance</h3>
-                    </div>
+                <div class="col-lg-6 align-self-center mt-4 mt-lg-0">
+                    <img src="{{ asset('images/about/01.png') }}" class="img-fluid" alt="about_img">
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Service-section -->
-<!-- Choose-section -->
-<section class="choose-section pt-100 pb-70 bg-off-white">
-    <div class="container">
-        <div class="section-title">
-            <small>Why Choose Us</small>
-            <h2>Why People Choose Erudex For ML Services</h2>
-        </div>
-        <div class="process-content">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-four.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Easy Model Building</h3>
-                        </div>
+    </section>
+    <!-- What is OVEX END -->
+    <!-- About Us -->
+    <section id="product" class="overview-block-pb">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <small class="iq-font-green">PROJECTS</small>
+                        <h2 class="title iq-tw-6">PIG CHAIN PROJECTS</h2>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-five.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Robust ML Production Anywhere</h3>
+            </div>
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6iq-r-mt-40">
+                        <div class="iq-small-icon">
+                            <img src="{{ asset('images/icon/04.png') }}" alt="icon" class="img-fluid">
+                            <h6>Safe & Secure Wallet</h6>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-six.png') }}" alt="shape">
+                    <div class="col-lg-3 col-md-4 col-sm-6 iq-r-mt-40">
+                        <div class="iq-small-icon">
+                            <img src="{{ asset('images/icon/05.png') }}" alt="icon" class="img-fluid">
+                            <h6>Launchpad</h6>
                         </div>
-                        <div class="process-text">
-                            <h3>Powerful Experimentation</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 iq-r-mt-40">
+                        <div class="iq-small-icon active">
+                            <img src="{{ asset('images/icon/06.png') }}" alt="icon" class="img-fluid">
+                            <h6>Smart dApps</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 iq-r-mt-40">
+                        <div class="iq-small-icon">
+                            <img src="{{ asset('images/icon/07.png') }}" alt="icon" class="img-fluid">
+                            <h6>PIG20 Bridge</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 iq-r-mt-40">
+                        <div class="iq-small-icon">
+                            <img src="{{ asset('images/icon/08.png') }}" alt="icon" class="img-fluid">
+                            <h6>Staking</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 iq-r-mt-40">
+                        <div class="iq-small-icon">
+                            <img src="{{ asset('images/icon/08.png') }}" alt="icon" class="img-fluid">
+                            <h6>Farming</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 iq-r-mt-40">
+                        <div class="iq-small-icon">
+                            <img src="{{ asset('images/icon/07.png') }}" alt="icon" class="img-fluid">
+                            <h6>TestNet & MainNet</h6>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Choose-section -->
+    </section>
+    <!-- About Us -->
+    <!-- Tranding platform -->
+    <section id="tokenomics" class="iq-Tranding-platform light-bg overview-block-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <small class="iq-font-green">Tokenomics</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>Token Name:</td>
+                                    <td>PIG CHAIN</td>
+                                </tr>
+                                <tr>
+                                    <td>Token Platform:</td>
+                                    <td>SMART CHAIN | BSC</td>
+                                </tr>
+                                <tr>
+                                    <td>Token Standard:</td>
+                                    <td>BEP20</td>
+                                </tr>
+                                <tr>
+                                    <td>Total Supply</td>
+                                    <td>100,000,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Initial Liquidity Pool</td>
+                                    <td>2 BNB</td>
+                                </tr>
+                                <tr>
+                                    <td>Max Allowed Transaction</td>
+                                    <td>2% of Total Supply</td>
+                                </tr>
+                                <tr>
+                                    <td>Max Allowed Holding/Wallet</td>
+                                    <td>2% of Total Supply</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>Buy Tax</td>
+                                    <td>10%</td>
+                                </tr>
+                                <tr>
+                                    <td>Sell Tax</td>
+                                    <td>10%</td>
+                                </tr>
+                                <tr>
+                                    <td>Launch Type</td>
+                                    <td>Fair Launch</td>
+                                </tr>
+                                <tr>
+                                    <td>Staking Allocation</td>
+                                    <td>7% of Total Supply</td>
+                                </tr>
+                                <tr>
+                                    <td>R&D Allocation</td>
+                                    <td>4% of Total Supply</td>
+                                </tr>
+                                <tr>
+                                    <td>CEX Allocation</td>
+                                    <td>5% of Total Supply</td>
+                                </tr>
+                                <tr>
+                                    <td>Partnership Allocation</td>
+                                    <td>4% of Total Supply</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tranding platform END -->
+    <!--================================
+        Our Great Features -->
+    <section class="overview-block-pt iq-great-features2 iq-hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title text-center">
+                        <h2 class="title iq-tw-6">PIG Wallet</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row iq-mt-40">
+                <div class="col-lg-4 col-md-6 col-sm-12 right-side">
+                    <div class="iq-feature1 iq-pt-60">
+                        <div class="left brd">
+                            <i class="fa fa-desktop brd"></i>
+                        </div>
+                        <div class="right">
+                            <h5 class="iq-tw-6 iq-mb-10">Powerful App</h5>
+                        </div>
+                    </div>
+                    <div class="iq-feature1 iq-pt-60">
+                        <div class="left brd">
+                            <i class="fa fa-shopping-cart brd"></i>
+                        </div>
+                        <div class="right">
+                            <h5 class="iq-tw-6 iq-mb-10">Buy & Sell</h5>
+                        </div>
+                    </div>
+                    <div class="iq-feature1 iq-pt-60">
+                        <div class="left brd">
+                            <i class="fa fa-mobile brd"></i>
+                        </div>
+                        <div class="right">
+                            <h5 class="iq-tw-6 iq-mb-10">Easy to Use</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-mobile-none"><img alt="" src="{{ asset('images/app.png') }}" class="img-fluid mx-auto d-block"></div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="iq-feature1 iq-pt-60">
+                        <div class="left brd">
+                            <i class="fa fa-users brd"></i>
+                        </div>
+                        <div class="right">
+                            <h5 class="iq-tw-6 iq-mb-10">Highly Secure</h5>
+                        </div>
+                    </div>
+                    <div class="iq-feature1 iq-pt-60">
+                        <div class="left brd">
+                            <i class="fa fa-gift brd"></i>
+                        </div>
+                        <div class="right">
+                            <h5 class="iq-tw-6 iq-mb-10">Low Rransaction Fees</h5>
+                        </div>
+                    </div>
+                    <div class="iq-feature1 iq-pt-60">
+                        <div class="left brd">
+                            <i class="fa fa-life-ring brd"></i>
+                        </div>
+                        <div class="right">
+                            <h5 class="iq-tw-6 iq-mb-10">Multiple Chain</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Project-section -->
-<section class="project-section pt-min-100 pb-100 bg-off-white" id="projects">
-    <div class="container">
-        <div class="section-title section-title-lg">
-            <h2>Erudex's Projects In Different Domain Of Industry</h2>
-            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence in service.</p>
-        </div>
-    </div>
-    <div class="container-fluid p-md-0">
-        <div class="project-carousel owl-carousel owl-theme default-carousel">
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-1.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Drone And Robot Training</a></h3>
+    <section class="overview-block-pt iq-great-features2 iq-hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title text-center">
+                        <h2 class="title iq-tw-6">Upcoming PIG Mainnet</h2>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-3.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Data Mining Revolution</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-2.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Automatic Project Management</a></h3>
-                    </div>
-                </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 d-mobile-none"><img alt="" src="{{ asset('images/contract-gen.png') }}" class="img-fluid mx-auto d-block"></div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Project-section -->
+    </section>
 
-<!-- News-section -->
-<section class="news-section pt-min-100 pb-70" id="news">
-    <div class="container">
-        <div class="section-title section-title-lg">
-            <h2>Upcoming News on Erudex AI</h2>
-            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence.</p>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="#">
-                            <img src="{{ asset('images/blogs/blog-1.jpg') }}" alt="blog">
-                        </a>
-                    </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Technology</div>
-                        <h3><a href="#">Is Machine Learning Right Going On Good Way</a></h3>
+    <!--================================
+        Our Great Features -->
+    <!-- timeline -->
+    <section id="road" class="iq-timeline-1 overview-block-ptb text-white iq-bg-fixed">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <small class="iq-font-green">PROCESS</small>
+                        <h2 class="title iq-tw-6">PIG CHAIN ROADMAP</h2>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="#">
-                            <img src="{{ asset('images/blogs/blog-2.jpg') }}" alt="blog">
-                        </a>
-                    </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Robot</div>
-                        <h3><a href="#">The Current State Of Artificial Intelligence Infographic</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 offset-md-3 offset-lg-0 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="single-blog.html">
-                            <img src="{{ asset('images/blogs/blog-3.jpg') }}" alt="blog">
-                        </a>
-                    </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Machine</div>
-                        <h3><a href="#">Our Company As A Global Leader In Big Data</a></h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="timeline-1">
+                        <div class="timeline-t">
+                            <span class="timeline-icon"></span>
+                            <span class="year">1st Phase</span>
+                            <div class="timeline-content">
+                                <h5 class="iq-font-yellow">Launch</h5>
+                                <p class="iq-mt-10">Fair Launch on Pancakeswap</p>
+                                <p class="iq-mt-10">Post Launch Marketing</p>
+                                <p class="iq-mt-10">Website Released</p>
+                                <p class="iq-mt-10">Events & Contest</p>
+                            </div>
+                        </div>
+                        <div class="timeline-t">
+                            <span class="timeline-icon"></span>
+                            <span class="year">2nd Phase</span>
+                            <div class="timeline-content">
+                                <h5 class="iq-font-yellow">Marketing</h5>
+                                <p class="iq-mt-10">BSC Trending</p>
+                                <p class="iq-mt-10">Dextools Trending</p>
+                                <p class="iq-mt-10">Poocoin Ads</p>
+                                <p class="iq-mt-10">Twitter Promotion</p>
+                            </div>
+                        </div>
+                        <div class="timeline-t">
+                            <span class="timeline-icon"></span>
+                            <span class="year">3rd Phase</span>
+                            <div class="timeline-content">
+                                <h5 class="iq-font-yellow">Products Released</h5>
+                                <p class="iq-mt-10">PIG Wallet Released</p>
+                                <p class="iq-mt-10">PIG Launchpad Released</p>
+                                <p class="iq-mt-10">PIG20 Bridge Released</p>
+                                <p class="iq-mt-10">PIG Staking Released</p>
+                                <p class="iq-mt-10">PIG Farming Released</p>
+                                <p class="iq-mt-10">PIG Testnet Released</p>
+                                <p class="iq-mt-10">PIG Mainnet Released</p>
+                            </div>
+                        </div>
+                        <div class="timeline-t">
+                            <span class="timeline-icon"></span>
+                            <span class="year">4th Phase</span>
+                            <div class="timeline-content">
+                                <h5 class="iq-font-yellow">Next Step</h5>
+                                <p class="iq-mt-10">Smart Contract Audit</p>
+                                <p class="iq-mt-10">Team KYC</p>
+                                <p class="iq-mt-10">COINGECKO Listing</p>
+                                <p class="iq-mt-10">COINMARKETCAP Listing</p>
+                                <p class="iq-mt-10">Onboard Marketing Agency</p>
+                                <p class="iq-mt-10">Onboard PR Agency</p>
+                                <p class="iq-mt-10">CEX Listing</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- News-section -->
-<!-- Newsletter-section -->
-<section class="newsletter-section pt-min-100 pb-100 page-bg page-bg-2 page-bg-overlay">
-    <div class="container position-relative">
-        <div class="section-title section-title-white">
-            <h2>Subscribe For Erudex's Newsletter</h2>
-            <p>Subscribe to our newsletter & stay updated</p>
-        </div>
-        <form class="newsletter-form">
-            <div class="form-group m-0 newsletter-form">
-                <input type="text" name="EMAIL" id="emails" class="form-control" placeholder="Enter Address*" required>
-                <button class="btn main-btn" type="submit">Subscribe</button>
-            </div>
-            <div id="validator-newsletter" class="form-result"></div>
-        </form>
-    </div>
-</section>
-<!-- Newsletter-section -->
+    </section>
+    <!-- timeline -->
+
+</div>
 @stop
