@@ -161,14 +161,6 @@
                                     <td>Initial Liquidity Pool</td>
                                     <td>2 BNB</td>
                                 </tr>
-                                <tr>
-                                    <td>Max Allowed Transaction</td>
-                                    <td>2% of Total Supply</td>
-                                </tr>
-                                <tr>
-                                    <td>Max Allowed Holding/Wallet</td>
-                                    <td>2% of Total Supply</td>
-                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -178,32 +170,24 @@
                         <table class="table table-bordered">
                             <tbody>
                                 <tr>
+                                    <td>Max Allowed Transaction</td>
+                                    <td>2% of Total Supply</td>
+                                </tr>
+                                <tr>
+                                    <td>Max Allowed Holding/Wallet</td>
+                                    <td>2% of Total Supply</td>
+                                </tr>
+                                <tr>
                                     <td>Buy Tax</td>
-                                    <td>10%</td>
+                                    <td>4%</td>
                                 </tr>
                                 <tr>
                                     <td>Sell Tax</td>
-                                    <td>10%</td>
+                                    <td>4%</td>
                                 </tr>
                                 <tr>
                                     <td>Launch Type</td>
-                                    <td>Fair Launch</td>
-                                </tr>
-                                <tr>
-                                    <td>Staking Allocation</td>
-                                    <td>7% of Total Supply</td>
-                                </tr>
-                                <tr>
-                                    <td>R&D Allocation</td>
-                                    <td>4% of Total Supply</td>
-                                </tr>
-                                <tr>
-                                    <td>CEX Allocation</td>
-                                    <td>5% of Total Supply</td>
-                                </tr>
-                                <tr>
-                                    <td>Partnership Allocation</td>
-                                    <td>4% of Total Supply</td>
+                                    <td>Stealth Launch</td>
                                 </tr>
                             </tbody>
                         </table>
