@@ -171,11 +171,11 @@
                             <tbody>
                                 <tr>
                                     <td>Max Allowed Transaction</td>
-                                    <td>2% of Total Supply</td>
+                                    <td>4% of Total Supply</td>
                                 </tr>
                                 <tr>
                                     <td>Max Allowed Holding/Wallet</td>
-                                    <td>2% of Total Supply</td>
+                                    <td>4% of Total Supply</td>
                                 </tr>
                                 <tr>
                                     <td>Buy Tax</td>
