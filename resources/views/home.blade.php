@@ -12,12 +12,12 @@
                         <h1 class="text-white iq-tw-7 iq-mb-20"><b class="iq-font-yellow">PIG CHAIN</b> Advanced Technology</h1>
                         <p>Pig Chain use the latest and advanced technology to maintain the scalability of the number of existing transactions </p>
                         <a href="https://t.me/PigChainPortal" class="button iq-mt-20 iq-ml-10" style="background:#DD00AE">JOIN US</a>
-                        <a href="https://poocoin.app/tokens/0x" class="button bt-white iq-mt-20 iq-ml-10" style="background:#DD00AE;color:white">CHART</a>
-                        <a href="https://pancakeswap.finance/swap?outputCurrency=0x" class="button bt-white iq-mt-20 iq-ml-10" style="background:#DD00AE;color:white">BUY PIG</a>
+                        <a href="https://poocoin.app/tokens/0x1444CB989AA3C60C0AdA1c5d7691d2A1B558a0eA" class="button bt-white iq-mt-20 iq-ml-10" style="background:#DD00AE;color:white">CHART</a>
+                        <a href="https://pancakeswap.finance/swap?outputCurrency=0x1444CB989AA3C60C0AdA1c5d7691d2A1B558a0eA" class="button bt-white iq-mt-20 iq-ml-10" style="background:#DD00AE;color:white">BUY PIG</a>
 
                         <div class="row">&nbsp;</div>
 
-                        Contract Address : <b>0x</b>
+                        Contract Address : <b>0x1444CB989AA3C60C0AdA1c5d7691d2A1B558a0eA</b>
                     </div>
                 </div>
                 <div class="col-lg-6 mt-5 mt-lg-0">
